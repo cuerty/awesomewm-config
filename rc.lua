@@ -392,6 +392,8 @@ end
 run_once("urxvtd -q -f -o")
 -- xscreensaver daemon:
 run_once("xscreensaver -nosplash")
+-- gnome-sound-applet for manage volume and access to the mixer:
+run_once("gnome-sound-applet")
 
 run_once("dropbox start")
 -- }}}
