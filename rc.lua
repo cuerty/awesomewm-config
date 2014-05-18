@@ -388,4 +388,5 @@ function run_once(cmd)
 end
 -- urxvt daemon:
 run_once("urxvtd -q -f -o")
+run_once("dropbox start")
 -- }}}
