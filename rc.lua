@@ -252,7 +252,9 @@ globalkeys = awful.util.table.join(
                   mypromptbox[mouse.screen].widget,
                   awful.util.eval, nil,
                   awful.util.getdir("cache") .. "/history_eval")
-              end)
+              end),
+    -- xscreensaver keybind:
+    awful.key({ modkey,           }, "l", function () awful.util.spawn("xscreensaver-command -lock") end)
 )
 
 clientkeys = awful.util.table.join(
@@ -388,5 +390,8 @@ function run_once(cmd)
 end
 -- urxvt daemon:
 run_once("urxvtd -q -f -o")
+-- xscreensaver daemon:
+run_once("xscreensaver -nosplash")
+
 run_once("dropbox start")
 -- }}}
