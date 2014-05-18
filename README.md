@@ -9,7 +9,7 @@ Installation
 On Ubuntu run this command to install the needed packages:
 
 ```
-$ sudo apt-get install awesome awesome-extra rxvt-unicode-256color
+$ sudo apt-get install awesome awesome-extra rxvt-unicode-256color xscreensaver
 ```
 
 And then clone this repository into ~/.config/awesome:
