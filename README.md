@@ -14,7 +14,7 @@ $ sudo apt-get install awesome awesome-extra rxvt-unicode-256color xscreensaver 
 And then clone this repository into ~/.config/awesome:
 
 ```
-$ git clone https://github.com/cuerty/dotfiles.git ~/.config/awesome
+$ git clone https://github.com/cuerty/awesomewm-config.git ~/.config/awesome
 ```
 
 Notes
