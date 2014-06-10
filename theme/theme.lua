@@ -24,7 +24,7 @@ end
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 8"
+theme.font      = "inconsolata 12"
 
 -- {{{ Colors
 theme.fg_normal = "#DCDCCC"
