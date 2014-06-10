@@ -37,9 +37,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
-beautiful.init("/usr/share/awesome/themes/default/theme.lua")
--- Set javierocasio's wallpapers
-theme.wallpaper_cmd = { "awsetbg -f ~/.config/awesome/FloatingIsland_Widescreen16.10.jpg" }
+beautiful.init(awful.util.getdir("config") .. "/theme/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvtc"
