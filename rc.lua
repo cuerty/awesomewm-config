@@ -388,6 +388,8 @@ function run_once(cmd)
   end
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
 end
+-- Transparency:
+awful.util.spawn_with_shell("xcompmgr -cF &")
 -- urxvt daemon:
 run_once("urxvtd -q -f -o")
 -- xscreensaver daemon:
